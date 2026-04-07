@@ -1,5 +1,7 @@
 # Skills
 
+private [skill](https://agentskills.io/home) repository by @chaesunbak
+
 ## Add Skills
 
 ```bash
