@@ -20,3 +20,13 @@ Run script to check specs and recommended workers (default `workers: 1`):
 ```bash
 node scripts/check_specs.js
 ```
+
+## Set up package.json scripts
+
+```
+"scripts": {
+    ...
+    "test:e2e": "playwright test -c playwright.config.ts",
+    "test:e2e:ui": "playwright test -c playwright.config.ts --ui",
+}
+```
