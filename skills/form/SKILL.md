@@ -7,7 +7,11 @@ description: Build forms. Use when creating or managing forms.
 
 Use `react-hook-form` with `zod` for form state and schema validation.
 
-## 2. Accessibility
+## 2. Submission
+
+Disable the submit button while submitting to prevent duplicate submissions.
+
+## 3. Accessibility
 
 Use `useId` to link inputs with their labels.
 
